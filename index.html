@@ -50,11 +50,12 @@
         function ValidateUsername(){
           var username = document.getElementById('username').value;
           if(username.length!=8)
-                document.getElementById('errors').innerHTML = "<h1>"+"Please enter a username of length 8!!"+"</h1>";
+            //    document.getElementById('errors').innerHTML = "Please enter a username of length 8!!";
+               window.alert("Please enter a username of length 8!!")
 
         }
 
-       
+
 
 
     </script>
